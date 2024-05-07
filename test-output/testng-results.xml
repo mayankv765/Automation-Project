@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="2" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-04T17:42:35 IST" name="Suite" finished-at="2024-05-04T17:43:20 IST" duration-ms="45674">
+    <groups>
+    </groups>
+    <test started-at="2024-05-04T17:42:35 IST" name="Data Provider test" finished-at="2024-05-04T17:43:12 IST" duration-ms="36834">
+      <class name="testCases.Tests.RunUsingDataProvider">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:testCases.Tests.RunUsingDataProvider@4738a206]" started-at="2024-05-04T17:42:35 IST" name="launchApp" finished-at="2024-05-04T17:42:48 IST" duration-ms="13503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="VerifyAllDataSets(java.lang.String,java.lang.String,[Ljava.lang.String;)[pri:0, instance:testCases.Tests.RunUsingDataProvider@4738a206]" started-at="2024-05-04T17:42:48 IST" name="VerifyAllDataSets" data-provider="DataSets" finished-at="2024-05-04T17:42:52 IST" duration-ms="3511" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mayankvyas765@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mayank@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[Ljava.lang.String;@1dd6546f]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <i _ngcontent-vmg-c33="" class="fa fa-shopping-cart"></i> is not clickable at point (1078, 27). Other element would receive the click: <div _ngcontent-vmg-c31="" class="ngx-spinner-overlay ng-tns-c31-1 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating" style="background-color: rgba(51, 51, 51, 0.8); z-index: 99999; position: fixed;">...</div>
+  (Session info: chrome=124.0.6367.119)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5a6e30c452a0abb2b06265e57491d868, clickElement {id=f.617095DD370CCE1AF7AE6A01B7D1595D.d.8762642CAACE843C9C2BD847EEC4C940.e.72}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\Saurabh\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54443}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54443/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5a6e30c452a0abb2b06265e57491d868)] -> xpath: //button[@class='btn btn-custom']/i[@class= 'fa fa-shopping-cart']]
+Session ID: 5a6e30c452a0abb2b06265e57491d868]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <i _ngcontent-vmg-c33="" class="fa fa-shopping-cart"></i> is not clickable at point (1078, 27). Other element would receive the click: <div _ngcontent-vmg-c31="" class="ngx-spinner-overlay ng-tns-c31-1 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating" style="background-color: rgba(51, 51, 51, 0.8); z-index: 99999; position: fixed;">...</div>
+  (Session info: chrome=124.0.6367.119)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5a6e30c452a0abb2b06265e57491d868, clickElement {id=f.617095DD370CCE1AF7AE6A01B7D1595D.d.8762642CAACE843C9C2BD847EEC4C940.e.72}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\Saurabh\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54443}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54443/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5a6e30c452a0abb2b06265e57491d868)] -> xpath: //button[@class='btn btn-custom']/i[@class= 'fa fa-shopping-cart']]
+Session ID: 5a6e30c452a0abb2b06265e57491d868
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
+at EcomSite.AbstractComponents.AbstractComponent.ClickToCart(AbstractComponent.java:51)
+at testCases.Tests.RunUsingDataProvider.VerifyAllDataSets(RunUsingDataProvider.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAllDataSets -->
+        <test-method is-config="true" signature="CloseBroswer()[pri:0, instance:testCases.Tests.RunUsingDataProvider@4738a206]" started-at="2024-05-04T17:42:52 IST" name="CloseBroswer" finished-at="2024-05-04T17:42:52 IST" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBroswer -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:testCases.Tests.RunUsingDataProvider@4738a206]" started-at="2024-05-04T17:42:52 IST" name="launchApp" finished-at="2024-05-04T17:43:08 IST" duration-ms="15958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="VerifyAllDataSets(java.lang.String,java.lang.String,[Ljava.lang.String;)[pri:0, instance:testCases.Tests.RunUsingDataProvider@4738a206]" started-at="2024-05-04T17:43:08 IST" name="VerifyAllDataSets" data-provider="DataSets" finished-at="2024-05-04T17:43:11 IST" duration-ms="3433" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vyas@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vyas@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[Ljava.lang.String;@33fea7fa]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <i _ngcontent-rdx-c33="" class="fa fa-shopping-cart"></i> is not clickable at point (1085, 27). Other element would receive the click: <div _ngcontent-rdx-c31="" class="ngx-spinner-overlay ng-tns-c31-1 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating" style="background-color: rgba(51, 51, 51, 0.8); z-index: 99999; position: fixed;">...</div>
+  (Session info: chrome=124.0.6367.119)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [396746a5681da628961e5322e30aab97, clickElement {id=f.08899159F2227F19C8FABFC6B4BA1C1D.d.DE92329E0BB3A39BB4F1FF0E5B82D445.e.94}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\Saurabh\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54500}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54500/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (396746a5681da628961e5322e30aab97)] -> xpath: //button[@class='btn btn-custom']/i[@class= 'fa fa-shopping-cart']]
+Session ID: 396746a5681da628961e5322e30aab97]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <i _ngcontent-rdx-c33="" class="fa fa-shopping-cart"></i> is not clickable at point (1085, 27). Other element would receive the click: <div _ngcontent-rdx-c31="" class="ngx-spinner-overlay ng-tns-c31-1 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating" style="background-color: rgba(51, 51, 51, 0.8); z-index: 99999; position: fixed;">...</div>
+  (Session info: chrome=124.0.6367.119)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [396746a5681da628961e5322e30aab97, clickElement {id=f.08899159F2227F19C8FABFC6B4BA1C1D.d.DE92329E0BB3A39BB4F1FF0E5B82D445.e.94}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\Saurabh\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54500}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54500/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (396746a5681da628961e5322e30aab97)] -> xpath: //button[@class='btn btn-custom']/i[@class= 'fa fa-shopping-cart']]
+Session ID: 396746a5681da628961e5322e30aab97
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
+at EcomSite.AbstractComponents.AbstractComponent.ClickToCart(AbstractComponent.java:51)
+at testCases.Tests.RunUsingDataProvider.VerifyAllDataSets(RunUsingDataProvider.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAllDataSets -->
+        <test-method is-config="true" signature="CloseBroswer()[pri:0, instance:testCases.Tests.RunUsingDataProvider@4738a206]" started-at="2024-05-04T17:43:11 IST" name="CloseBroswer" finished-at="2024-05-04T17:43:12 IST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBroswer -->
+      </class> <!-- testCases.Tests.RunUsingDataProvider -->
+    </test> <!-- Data Provider test -->
+    <test started-at="2024-05-04T17:42:35 IST" name="Hash Map Data Provider test" finished-at="2024-05-04T17:43:20 IST" duration-ms="45674">
+      <class name="testCases.Tests.HashMapSetDataProvider">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:testCases.Tests.HashMapSetDataProvider@4d5650ae]" started-at="2024-05-04T17:42:35 IST" name="launchApp" finished-at="2024-05-04T17:42:48 IST" duration-ms="12988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="VerifyAllDataSets(java.util.HashMap)[pri:0, instance:testCases.Tests.HashMapSetDataProvider@4d5650ae]" started-at="2024-05-04T17:42:48 IST" name="VerifyAllDataSets" data-provider="DataSets" finished-at="2024-05-04T17:42:57 IST" duration-ms="8998" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{pass=Mayank@123, email=mayankvyas765@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAllDataSets -->
+        <test-method is-config="true" signature="CloseBroswer()[pri:0, instance:testCases.Tests.HashMapSetDataProvider@4d5650ae]" started-at="2024-05-04T17:42:57 IST" name="CloseBroswer" finished-at="2024-05-04T17:42:57 IST" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBroswer -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:testCases.Tests.HashMapSetDataProvider@4d5650ae]" started-at="2024-05-04T17:42:57 IST" name="launchApp" finished-at="2024-05-04T17:43:11 IST" duration-ms="14596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="VerifyAllDataSets(java.util.HashMap)[pri:0, instance:testCases.Tests.HashMapSetDataProvider@4d5650ae]" started-at="2024-05-04T17:43:11 IST" name="VerifyAllDataSets" data-provider="DataSets" finished-at="2024-05-04T17:43:20 IST" duration-ms="8686" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{pass=Vyas@123, email=vyas@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAllDataSets -->
+        <test-method is-config="true" signature="CloseBroswer()[pri:0, instance:testCases.Tests.HashMapSetDataProvider@4d5650ae]" started-at="2024-05-04T17:43:20 IST" name="CloseBroswer" finished-at="2024-05-04T17:43:20 IST" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBroswer -->
+      </class> <!-- testCases.Tests.HashMapSetDataProvider -->
+    </test> <!-- Hash Map Data Provider test -->
+  </suite> <!-- Suite -->
+</testng-results>
